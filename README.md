@@ -8,7 +8,7 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] User can **sign in to Twitter** using OAuth login
+- [x] User can **sign in to Twitter** using OAuth login
 - [ ]    User can **view tweets from their home timeline**
   - [ ] User is displayed the username, name, and body for each tweet
   - [ ] User is displayed the [relative timestamp](https://gist.github.com/nesquena/f786232f5ef72f6e10a7) for each tweet "8m", "7h"
@@ -51,7 +51,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2020 Sara Kazemi
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
