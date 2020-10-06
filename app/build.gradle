@@ -43,9 +43,12 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.1.0'
     // Glide for remote image loading
     implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
     // Room for simple persistence with an ORM
     def room_version = "2.2.5"
     implementation "androidx.room:room-runtime:$room_version"
     annotationProcessor "androidx.room:room-compiler:$room_version"
     implementation 'com.facebook.stetho:stetho:1.5.1'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.0.0'
 }
