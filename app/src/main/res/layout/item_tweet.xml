@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="5dp"
     android:background="#2C2929">
 
     <ImageView
@@ -20,9 +21,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:layout_toEndOf="@+id/ivProfileImage"
+        android:layout_toEndOf="@+id/tvRealName"
         android:text="@string/tweetHandle"
         android:textColor="@android:color/holo_blue_bright"
+        android:textSize="14sp"
         android:textStyle="bold" />
 
     <TextView
@@ -41,9 +43,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="2dp"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/tvScreenName"
         android:text="53m"
-        android:textColor="@android:color/darker_gray" />
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvRealName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/ivProfileImage"
+        android:text="TextView"
+        android:textAllCaps="false"
+        android:textColor="#ccccff"
+        android:textSize="14sp"
+        android:textStyle="bold" />
 </RelativeLayout>

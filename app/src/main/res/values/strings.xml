@@ -8,5 +8,7 @@
     <string name="this_is_my_tweet">This is my tweet</string>
     <string name="tweetHandle">sampleName123</string>
     <string name="profileImage">TODO</string>
+    <string name="tweet">Tweet</string>
+    <string name="what_s_happening">What\'s happening?</string>
 
 </resources>
